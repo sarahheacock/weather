@@ -1,0 +1,84 @@
+.container-fluid{
+  padding: 0px;
+  background-color: #e2e9e6;
+}
+
+body {
+  background-image: url(https://static.pexels.com/photos/192997/pexels-photo-192997.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  margin:0;
+  padding:0; 
+  position: relative;
+  font-family: Georgia, serif;
+  display: block;
+  height: 100vh;
+}
+
+.content{
+  color: DarkSlateGray;
+  font-size: 250%;
+  background: #ECF1EF;
+  opacity: 0.5;
+  height: auto;
+  border-style: solid;
+  border-width: medium;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1%;
+  max-width:700px;
+  max-height: 500px;
+  margin-top: 5%;
+  margin-bottom: 2%;
+  padding: 2%;
+ 
+  
+}
+
+
+.changeHeight {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+  padding-top: 1%;
+  padding-bottom: 10%;
+  
+  max-width:600px;
+}
+
+.changeHeight h1{
+  font-size: 150%;
+}
+
+h1{
+  font-size: 200%;
+}
+
+button{
+  background-color: White;
+  border: none
+}
+
+.image{
+  width: 10%;
+}
+.fa-heart{
+  color: #CDB7B5;
+}
+
+.fa-coffee{
+  color: #8B795E;
+}
+footer{
+  background-color: DarkSlateGray;
+  color: Silver;
+  padding: 0.5%;
+  text-align: center;
+  font-size: 15px;
+  font-style: italic;
+  position: fixed;
+  bottom: 0px;
+  width:100%;
+  opacity: 0.8;
+}
